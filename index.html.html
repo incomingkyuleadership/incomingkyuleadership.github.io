@@ -1,0 +1,511 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+<style>
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply default font family and font size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the header */
+header {
+  background-color: darkblue;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Style the navigation */
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #0073b1;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+}
+
+section p + ul {
+  margin-top: 0.5rem;
+}
+
+/* Style the address in the footer */
+address {
+  margin-top: 1rem;
+  font-style: normal;
+  font-size: 0.875rem;
+}
+
+/* Style the footer */
+footer {
+  background-color: darkblue;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		
+		th {
+			background-color: darkblue;
+			color: #FFFFFF;
+		}
+		
+		tr:hover {
+			background-color: #F5F5F5;
+		}
+
+/*slideshow*/
+{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: left;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+    <title>C.R.A</title>
+  <link rel="website icon" type="jpg" 
+href="https://res.cloudinary.com/dmpposta9/image/upload/v1677319480/C.R.A/cra/logo_iut3yv.jpg">
+  </head>
+  <body>
+    <header>
+      <h1>Comrades Revolution Party</h1> <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319480/C.R.A/cra/logo_iut3yv.jpg" height="100" width="100">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#Leaders">Leaders Under CRA</a></li>
+          <li><a href="#media">Media</a></li>
+          <!--<li><a href="#contact">Contact</a></li>-->
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="about">
+        <h2>About Comrades Revolution Alliance</h2>
+        <p>Comrades Revolution Alliance, popularly referred as C.R.A is headed by The Great Team Kibet.</p>
+      </section>
+      
+      <section id="mission">
+        <h2>Mission</h2>
+        <p>Our mission is to promote unity, peace, and prosperity in Krinyaga University and all other universities in Kenya through effective governance, social justice, and economic development.</p>
+      </section>
+      
+      <section id="vision">
+        <h2>Vision</h2>
+        <p>Our vision is a Kenyan university that is democratic, inclusive, and equitable, where all comrades enjoy equal rights, opportunities, and dignity.</p>
+      </section>
+     
+      <section id="Leaders">
+        <h1>Leaders Under C.R.A</h1>
+        <h2>School Governing Counsel(SGC)</h2>
+        <table>
+            <thread>
+                <tr>
+                    <th>Post</th>
+                    <th>Name</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td>President</td>
+                    <td>Emmanuel Kibet</td>
+                </tr>
+                <tr>
+                    <td>Secretary General</td>
+                    <td>Amos Simiyu</td>
+                </tr>
+                <tr>
+                    <td>Treasurer</td>
+                    <td>Akoko</td>
+                    </tr>
+                    <tr>
+<td>Academics</td>
+<td>Philip Ochieng</td>
+                    </tr>
+                    <tr>
+                      <td>Shekinah Nyambura</td>
+                      <td>Welfare</td>
+                    </tr>
+            </tbody>
+        </table>
+        <h2>Electral College</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>School</th>
+					<th>Academic Delegate</th>
+					<th>Male Delegate</th>
+                    <th>Female Delegate</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>SPAAS</td>
+					<td>Samuel Wambua</td>
+					<td>Mark Kiprotich</td>
+                    <td>Sally Polycarp</td>
+				</tr>
+				<tr>
+					<td>Education</td>
+					<td>Nicholus Onyango</td>
+					<td>Kipkoech Collins</td>
+                    <td>Shaleen Chebet</td>
+				</tr>
+				<tr>
+					<td>Business</td>
+					<td>Samuel Barasa</td>
+					<td>Caleb Wanjala</td>
+                    <td>Brenda Nyokabi</td>
+				</tr>
+				<tr>
+					<td>Health</td>
+					<td>Godwil Ndungu</td>
+					<td>Festus Limo</td>
+                    <td>Mary Nandako</td>
+				</tr>
+				<tr>
+					<td>Engineering</td>
+					<td>Barack Alata</td>
+					<td>Felix Okoth</td>
+                    <td>Brenice Chelangat</td>
+				</tr>
+			</tbody>
+		</table>
+        </section>
+      
+      <section id="media">
+        <h2 style="text-align:center">Media</h2>
+        <h3 style="text-align:center;color:darkblue">Incoming Kirinyaga University Leadership</h3>
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677326730/C.R.A/cra/SGC/kibe_gcpqlx.png" style="width:100%">
+    <div class="text">President Kibet</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677326733/C.R.A/cra/SGC/amo_xrfdlx.png" style="width:100%">
+    <div class="text">Amos Simiyu - Secretary General</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677326725/C.R.A/cra/SGC/akok_qngerh.png" style="width:100%">
+    <div class="text">Akoko - Finance</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677326735/C.R.A/cra/SGC/phil_e1iesz.png" style="width:100%">
+    <div class="text">Philip Ochieng - Academics</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677326726/C.R.A/cra/SGC/Shek_zlddx9.png" style="width:100%">
+    <div class="text">Shekina Nyambura - Welfare</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319481/C.R.A/cra/SPAAS/Samuel_tdwhco.jpg" style="width:100%">
+    <div class="text">Samuel Wambua - Academic Delegate SPAAS</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319481/C.R.A/cra/SPAAS/Mark_mms8ka.jpg" style="width:100%">
+    <div class="text">Mark Kiprotich - Male Delegate SPAAS</div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext">8 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319480/C.R.A/cra/SPAAS/Sally_vwb4fx.jpg" style="width:100%">
+    <div class="text">Sally Polycarp - Female Delegate SPAAS</div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">9 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319478/C.R.A/cra/BIZ/Barasa_fxmknk.jpg" style="width:100%">
+    <div class="text">Samuel Barasa - Academic Delegate Business</div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">10 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319482/C.R.A/cra/BIZ/Caleb_agamjs.jpg" style="width:100%">
+    <div class="text">Caleb Wanjala - Male Delegate Business</div>
+  </div>  
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319479/C.R.A/cra/BIZ/Bree_uzy9pv.jpg" style="width:100%">
+    <div class="text">Brenda Nyokabi - Female Delegate Business</div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext">12 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319479/C.R.A/cra/Education/Nicholas_l3jyn2.jpg" style="width:100%">
+    <div class="text">Nicholas Onyango - Academic Delegate Education</div>
+  </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext">13 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319479/C.R.A/cra/Education/Collins_qzfpve.jpg" style="width:100%">
+    <div class="text">Collins Kipkoech - Male Delegate Education</div>
+  </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext">14 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319479/C.R.A/cra/Education/Sharleen_reqfav.jpg" style="width:100%">
+    <div class="text">Shaleen Chebet - Female Delegate Education</div>
+  </div>  
+
+ <div class="mySlides fade">
+    <div class="numbertext">15 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319479/C.R.A/cra/Engineering/Barack_ztln6p.jpg" style="width:100%">
+    <div class="text">Baraka Alata - Academic Delegate Engineering</div>
+  </div>  
+
+ <div class="mySlides fade">
+    <div class="numbertext">16 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319480/C.R.A/cra/Engineering/Felix_fna2ov.jpg" style="width:100%">
+    <div class="text">Felix Okoth - Male Delegate Engineering</div>
+  </div>  
+
+  <div class="mySlides fade">
+    <div class="numbertext">17 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319479/C.R.A/cra/Engineering/Brenice_ncurlf.jpg" style="width:100%">
+    <div class="text">Brenice Chelangat - Female Delegate Engineering</div>
+  </div>    
+
+  <div class="mySlides fade">
+    <div class="numbertext">18 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319480/C.R.A/cra/SHS/Godwill_brtqbi.jpg" style="width:100%">
+    <div class="text">Godwill Ndungu - Academic Delegate Health</div>
+  </div>  
+
+  <div class="mySlides fade">
+    <div class="numbertext">19 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319481/C.R.A/cra/SHS/Festus_wszovx.jpg" style="width:100%">
+    <div class="text">Festus Kiprono - Male Delegate Health</div>
+  </div>  
+
+  <div class="mySlides fade">
+    <div class="numbertext">20 / 20</div>
+    <img src="https://res.cloudinary.com/dmpposta9/image/upload/v1677319481/C.R.A/cra/SHS/Mary_wugagy.jpg" style="width:100%">
+    <div class="text">Mary Nandako - Female Delegate Health</div>
+  </div>  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+   <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+     <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+       <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+         <span class="dot" onclick="currentSlide(12)"></span>
+          <span class="dot" onclick="currentSlide(13)"></span>
+           <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+             <span class="dot" onclick="currentSlide(16)"></span>
+              <span class="dot" onclick="currentSlide(17)"></span>
+               <span class="dot" onclick="currentSlide(18)"></span>
+                <span class="dot" onclick="currentSlide(19)"></span>
+                 <span class="dot" onclick="currentSlide(20)"></span>
+
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+      
+      </section>
+      
+     <!-- <section id="contact">
+        <h2>Contact Us</h2>
+        <p>You can reach us at:</p>
+       </section>
+    </main>-->
+    <footer>
+      <p>&copy; 2023 Comrade Revolution Alliance</p>
+    </footer>
+  </body>
+</html>
